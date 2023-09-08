@@ -17,7 +17,7 @@ public class MainAccountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_account);
 
-        ivBack = findViewById(R.id.iv_back);
+        ivBack = findViewById(R.id.iv_pack);
 
         ivBack.setOnClickListener(new View.OnClickListener() {
             @Override

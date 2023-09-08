@@ -23,7 +23,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/tv_item_name_account"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -32,14 +32,14 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/tv_item_type_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Saldo" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <TextView
@@ -52,7 +52,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/tv_item_type_balance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -60,6 +60,41 @@
                     android:text="10.234.232,00"
                     android:textColor="#4CAF50"
                     android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de cuenta" />
+
+            <TextView
+                android:id="@+id/tv_item_balance_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="right"
+                android:text="Cuenta de ahorro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Eliminar" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Editar" />
             </LinearLayout>
 
         </LinearLayout>
