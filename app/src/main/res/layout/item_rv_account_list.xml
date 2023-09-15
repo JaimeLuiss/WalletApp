@@ -7,7 +7,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="380dp"
-        android:layout_height="173dp"
+        android:layout_height="300dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,6 +22,17 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_item_account"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_launcher_background"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+
             <TextView
                 android:id="@+id/tv_item_name_account"
                 android:layout_width="match_parent"
@@ -32,7 +43,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_item_type_name"
+                android:id="@+id/tv_item_type_account"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Saldo" />
@@ -72,8 +83,8 @@
             <TextView
                 android:id="@+id/tv_item_balance_account"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
 
+                android:layout_height="wrap_content"
                 android:gravity="right"
                 android:text="Cuenta de ahorro" />
 
